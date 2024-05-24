@@ -1,0 +1,66 @@
+body{
+	background: #000;
+}
+
+.container-fluid{
+	background: #000;
+	padding: 0px;
+}
+
+.item{
+	width: 23%;
+	height: 220px;
+
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 1%;
+	margin-top: 1%;
+}
+.item img{
+	width: 60%;
+	height: 60%;
+	margin:0 auto;
+}
+
+.container-footer{
+	background: #000;
+	position: relative;
+	text-decoration-color: #fff;
+	padding: 0px;
+	margin-right: 0px;
+	text-decoration-color: none;
+}
+ 
+.social-media a:{
+	hover:white;
+	color:#fff;
+}
+ a:link, a:hover, a:focus{
+ 	text-decoration: none;
+
+ }
+
+ a:hover{
+ 	background: #927070;
+ }
+ a:link{
+ 	color: #fff;
+ 	font-size: 15px;
+ }
+
+ .footer-heading{
+ 	padding: auto;
+ 	margin-left: 570px;
+ }
+ .content{
+ 	padding: 20px;
+ 	margin: auto;
+ 	display:flex;
+	justify-content:space-between;
+	display: grid;
+ }
+ #paymentForm{
+ 	border: 5px solid;
+ 	position: absolute;
+ 	
+ }

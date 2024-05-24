@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<header>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta name="author" content="Maria">
+	<link rel="shortcut icon" href= "./images/favicon.png">
+	<link rel="stylesheet" href="./css/bootstrap.css" >
+	<link rel="stylesheet" href="./css/style.css">
+    <title>EaseTicketing</title>
+</header>
+<body>
+    <div class="container-fluid">
+		    <!-- Navigation Bar  -->
+           <nav class="navbar navbar-default">
+					<a href="index.php"><img  class="navbar-brand" src="./images/favicon.png"></a>
+					<a class="navbar-brand" href="index.php">Home</a>
+					<ul class="nav navbar-nav">
+						 <form action="productions.php" method="POST">
+							<input class = "boton" type="submit" name="AfroBeat" value="Afrobeat Music">
+							<input class = "boton" type="submit" name="Drama" value="Drama">
+							<input class = "boton" type="submit" name="Highlife" value="Highlife Music">
+							<input class = "boton" type="submit" name="Ballet" value="Ballet">
+							<input class = "boton" type="submit" name="Comedy" value="Comedy">
+						 </form>
+					 </ul>
+					<a class="navbar-brand" id ="navbar-brand-shop"href="shoppingbasket.php">My basket</a>
+					<a href="shoppingbasket.php"><img  class="navbar-brand" src="./images/shopping_bag.png"></a>
+					
+					<div class="col-lg-6" style="padding-top:10px">
+					<a href="./login.php" style="color:white; font-size:20px"> Admin login </a>&nbsp;&nbsp;
+					</div>
+                   <div class="col-lg-6" style="text-align:right">
+						<form action="searcher.php" method="get">
+							<input  type="text" name="terms"  size="10px">
+							<input class="btn btn-default" type="submit" name="searcher" value="Search">
+						</form>		
+					</div>        
+			</nav>
+				<a href="index.php"><div class="thumbnail" style="border:#000"><img src="./images/logo1.jpg"></div></a>
+			<div class="container-fluid">
+				<div class="col-lg-4">
+					<div class="thumbnail" style="padding-left: 0,0,0,0;"><img src="./images/jason-statham.jpg"></div>
+					</div>
+					<div class="col-lg-4">
+					<div class="thumbnail">
+						<img src="./images/furiosa-a-mad-max.jpg">
+					</div>
+					</div>
+					<div class="col-lg-4">
+					<div class="thumbnail">
+						<img src="./images/deadpool-wolverine-2024.jpg">
+					</div>
+				</div>
+			</div>
