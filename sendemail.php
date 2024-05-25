@@ -1,6 +1,6 @@
 <?php
         $arreglo = $_SESSION['basket'];
-	    $name = "Ease Ticketing";
+	    $name = "EaseTicketing";
         $date = date("d-m-Y");
         $time = date("H:i:s");      
         $topic = 'Summary of your purchase';
@@ -11,8 +11,8 @@
        $comment = '
 			<div style="font-family: "Helvetica";">
 			<center>
-			<img src="http://s30.postimg.org/ml03269ox/logo.png" width="700px">
-			<h1><em>Ease Ticketing</em></h1></center><br>
+			<img src="http://s30.postimg.org/ml03269ox/logo1.jpeg" width="700px">
+			<h1><em>EaseTicketing</em></h1></center><br>
 			<h1><em>Thanks for your purchase</em></h1></center>
 			<hr width="90%">
 			<p></p> ';
