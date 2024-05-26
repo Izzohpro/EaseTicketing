@@ -1,7 +1,7 @@
 <?php
 session_start();
 include("./includes/header.html");
-include("payment.html");
+
 
 if (!empty($_POST)) {
 	$firstnameError = null;

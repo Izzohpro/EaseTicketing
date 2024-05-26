@@ -1,16 +1,18 @@
 <?php
         $arreglo = $_SESSION['basket'];
-	    $name = "EaseTicketing";
+	    $name = "Ease Ticketing";
         $date = date("d-m-Y");
         $time = date("H:i:s");      
         $topic = 'Summary of your purchase';
         $from = "www.easeticketing.com";
         $email = $_SESSION['email'];
         $reference =  $_SESSION['reference'];
-        $comment = '
+ 
+       $comment = '
 			<div style="font-family: "Helvetica";">
 			<center>
-			<h1><em>EaseTicketing</em></h1></center><br>
+			<img src="http://s30.postimg.org/ml03269ox/logo.png" width="700px">
+			<h1><em>Ease Ticketing</em></h1></center><br>
 			<h1><em>Thanks for your purchase</em></h1></center>
 			<hr width="90%">
 			<p></p> ';
@@ -34,6 +36,6 @@
         $headers .= "From: easeticketing.com\r\n"; 
         
 		try{
-			mail($email,$topic,$comment,$headers);
+			 ini_set(mail)($email,$topic,$comment,$headers);
 		}catch(Exception $e){}
 ?>
