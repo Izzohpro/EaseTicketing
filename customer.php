@@ -159,9 +159,9 @@ if (!empty($_POST)) {
 <div class="col-lg-5">
 	<h1 style="color:#d9534f">Tickets to purchase</h1><br>
 <?php
-if(isset($_SESSION['basket'])) {
+if(isset($_SESSION['cart'])) {
 			
-	$data = $_SESSION ['basket'];
+	$data = $_SESSION ['cart'];
 	$total = 0;
 	
 	for ($i=0; $i<count($data); $i++){

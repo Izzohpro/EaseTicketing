@@ -92,7 +92,7 @@ if ( isset($_SESSION['basket']) && isset ($_SESSION['customer']) ){
 						<span style="font-size:20px; font-weight:400; color:black;font-style:italic"><?php echo date("l jS \of F Y", strtotime($arreglo[$i]['Performancedate']));?></span><br>
 						<span style="font-size:20px; font-weight:400; color: black">18:00pm</span><br>
 						<span style="font-size:20px; font-weight:400; color: black">Seat: <?php echo $arreglo[$i]['Performanceseat'] ?></span><br>
-						<span style="font-size:20px; font-weight:600; color:#D11111"><img src="http://icons.iconarchive.com/icons/umar123/build/48/0025-Ticket-icon.png" width="40px">Ticket ID: <?php echo $ticketreference;?></span><br><br></center><br>
+						<span style="font-size:20px; font-weight:600; color:#D11111"><img src="./images/Ticket-icon.png" width="40px">Ticket ID: <?php echo $ticketreference;?></span><br><br></center><br>
 				</div><?php
 				
 			} 

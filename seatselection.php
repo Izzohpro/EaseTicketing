@@ -6,7 +6,7 @@ include("./includes/header.html");
 </div>
 
 <div class="col-lg-6">
-	<h1 style="color:#d9534f">Seat selection</h1>
+	<h1 style="color:#fff"><b>Seat selection</b></h1>
 	
 	<?php
 	$seat = "";
@@ -31,13 +31,13 @@ include("./includes/header.html");
 		else{ 
 			?>
 			<span  style="font-size:20px; font-weight:600; color: #21D13E">The seat <?php echo $seat ?> is free.</span>&emsp;&emsp;
-			<a href="./shoppingbasket.php?id=<?php echo  $_GET['performanceid'] ?>&fk=<?php echo $_GET['productionid'] ?>&seat=<?php echo $seat?>"  style="font-size:20px; font-weight:500; color:#D11111">Add to my basket</a>&nbsp&nbsp&nbsp
-			<a href="./shoppingbasket.php?id=<?php echo  $_GET['performanceid'] ?>&fk=<?php echo $_GET['productionid'] ?>&seat=<?php echo $seat?>"><img src="./images/shopping_bag.png" width="35px" style="margin-top:-14px"></a><br><br>
+			<a href="./shoppingcart.php?id=<?php echo  $_GET['performanceid'] ?>&fk=<?php echo $_GET['productionid'] ?>&seat=<?php echo $seat?>"  style="font-size:20px; font-weight:500; color:#D11111">Add to my cart</a>&nbsp&nbsp&nbsp
+			<a href="./shoppingcart.php?id=<?php echo  $_GET['performanceid'] ?>&fk=<?php echo $_GET['productionid'] ?>&seat=<?php echo $seat?>"><img src="./images/shopping_bag.png" width="35px" style="margin-top:-14px"></a><br><br>
 		<?php }
 	} ?>
 		
 	<!-- Seat selection form -->
-	<span  style="font-size:20px; font-weight:500; color: black">Select seat:</span>
+	<span  style="font-size:20px; font-weight:500; color:white">Select seat:</span>
 	<form action="" method="post">
 		<select name="row">
 			 <option value="A"<?php echo (isset($_POST['row']) && $_POST['row'] == 'A') ? ' selected="selected"' : '' ; ?>>A</option>
@@ -56,7 +56,7 @@ include("./includes/header.html");
 		
 		<br><br><input type="submit" class="btn btn-danger" name="SubmitButton" value="CHECK AVAILABILITY" style="font-size:18px">			
 	  </form> 
-	  
+	  <br><br>
 </div>
 </div>
 </body>

@@ -1,7 +1,8 @@
 <?php
-        $arreglo = $_SESSION['basket'];
+        $arreglo = $_SESSION['cart'];
 	    $name = "Ease Ticketing";
         $date = date("d-m-Y");
+        
         $time = date("H:i:s");      
         $topic = 'Summary of your purchase';
         $from = "www.easeticketing.com";
@@ -12,7 +13,7 @@
 			<div style="font-family: "Helvetica";">
 			<center>
 			<img src="http://s30.postimg.org/ml03269ox/logo.png" width="700px">
-			<h1><em>Ease Ticketing</em></h1></center><br>
+			<h1><em>EaseTicketing</em></h1></center><br>
 			<h1><em>Thanks for your purchase</em></h1></center>
 			<hr width="90%">
 			<p></p> ';
@@ -37,5 +38,5 @@
         
 		try{
 			 ini_set(mail)($email,$topic,$comment,$headers);
-		}catch(Exception $e){}
+		}catch(Exception $e){}	
 ?>

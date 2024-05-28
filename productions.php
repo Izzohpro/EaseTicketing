@@ -7,9 +7,9 @@ if(!empty($_REQUEST["AfroBeat"]))
 {
 	$var = "AfroBeat Music";
 }
-else if(!empty($_REQUEST['Drama']))
+else if(!empty($_REQUEST['Movies']))
 {
-	$var = "Drama";
+	$var = "Movies";
 }
 else if(!empty($_REQUEST['Highlife']))
 {

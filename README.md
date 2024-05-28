@@ -1,1 +1,0 @@
-EaseTicketing is a simple yet efficient ticket booking platform designed to streamline the process of booking tickets for movies or classical music events. Users can easily browse through available events, select their preferred showtimes, and purchase tickets seamlessly.
